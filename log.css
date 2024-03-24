@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  font-family: Poppins, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+.titr {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1c093c;
+}
+.descrip {
+  text-align: center;
+  padding: 0.75rem;
+  color: #606060;
+  font-size: 1rem;
+}
+.form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+.input_container {
+  padding: 0.5rem;
+}
+label {
+  color: #1c093c;
+  font-weight: 500;
+}
+input {
+  width: 90vw;
+  height: 7.5vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  outline: none;
+  border: 1.5px solid #e1e4ef;
+  padding: 0.5rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+}
+#des {
+  height: 10rem;
+}
+.sub_container {
+  padding: 1rem;
+}
+button {
+  width: 28vw;
+  height: 7vh;
+  border-radius: 6px;
+  outline: none;
+  border: 1.5px solid #e1e4ef;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 18px;
+  background: linear-gradient(#6e6cf4, #4d47f5);
+}
+.issue {
+  width: 90vw;
+  border-radius: 6px;
+  outline: none;
+  border: 2px solid #e1e4ef;
+  padding: 0.5rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+}
+@media (min-width: 1020px) {
+  .container {
+    width:70%;
+     height:100%;
+    font-family: Poppins, sans-serif;
+    background-color: #fff;
+    border-radius: 10px;
+
+    box-shadow: 5px 10px 15px 5px #00000060;
+  }
+  body {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #fff 50%, #4d47f5 50%);
+  }
+  .form_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  input {
+    width: 25vw;
+   height:95%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    outline: none;
+    border: 1.5px solid #e1e4ef;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+  }
+  .input_container {
+    padding: 0.5rem;
+  }
+  .formm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box {
+    display: flex;
+    flex-direction: row;
+  }
+  .issue {
+    width: 52vw;
+    border-radius: 6px;
+    outline: none;
+    border: 1.5px solid #e1e4ef;
+    padding: 0.5rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    justify-content: center;
+    display: flex;
+  }
+  button {
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid #e1e4ef;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+    background: linear-gradient(#6e6cf4, #4d47f5);
+  }
+  .sub_container {
+    display: flex;
+  }
+}
+@media (min-width: 600px) {
+  .container {
+    width: 70%;
+    height:95%;
+    font-family: Poppins, sans-serif;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px 5px #00000060;
+  }
+  body {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #fff 50%, #423df3 50%);
+  }
+  .form_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  input {
+    width: 25vw;
+    height: 7vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    outline: none;
+    border: 1.5px solid #e1e4ef;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+  }
+  .input_container {
+    padding: 0.5rem;
+  }
+  .formm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box {
+    display: flex;
+    flex-direction: row;
+  }
+  .issue {
+    width: 52vw;
+    border-radius: 6px;
+    outline: none;
+    border: 1.5px solid #e1e4ef;
+    padding: 0.5rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    justify-content: center;
+    display: flex;
+  }
+  button {
+    width: 25%;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+    background: linear-gradient(#6e6cf4, #4d47f5);
+  }
+  .sub_container {
+    display: flex;
+    padding: 1px 11%;
+  }
+}
